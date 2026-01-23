@@ -1,7 +1,7 @@
 ---
 title: "RadarThing: From Simple Radar to Full Flight Platform"
 description: "How a bandwidth-efficient radar evolved into a complete flight tracking platform with logging, stats, ATC commands, and community features."
-date: "2025-01-23"
+date: "2026-01-23"
 url: "/radarthing-evolution/"
 draft: false
 categories:
@@ -35,19 +35,19 @@ With flight logging came the ability to track statistics. Your dashboard now sho
 
 All of this is calculated from your actual flight data. The distance calculation uses the Haversine formula on your recorded coordinates, so it reflects your actual path rather than just the great circle distance between airports.
 
-## ATC Commands
+## Remote Autopilot Control
 
-This is where things get interesting for controllers. RadarThing now supports sending commands directly to pilots. When you are controlling and a pilot is on your frequency, you can issue commands that directly interact with their autopilot:
+RadarThing now supports sending commands to your own aircraft remotely. This is useful when you are away from your desktop but want to adjust your autopilot settings. From the radar interface on your phone or another device, you can:
 
 - Set speed
 - Set altitude
 - Set heading
 - Set vertical speed
 - Assign squawk codes
-- Toggle autopilot
-- Disable NAV mode for vectoring
+- Change Waypoints
+- Disable NAV mode
 
-The pilot's userscript polls for commands every few seconds and executes them automatically. This makes vectoring significantly smoother since the pilot does not need to manually input every instruction.
+Your userscript polls for commands every few seconds and executes them automatically. This means you can step away from your computer during cruise and still make adjustments if needed.
 
 ## Aircraft Images
 
@@ -63,13 +63,19 @@ Each flight session tracks not just coordinates but also maximum altitude reache
 
 Looking back at the original post, the core radar functionality remains the same. The smart polling, accurate altitude display, and Foo filtering all work as before. But the platform around it has expanded significantly:
 
-| Then | Now |
-|------|-----|
-| View aircraft on map | View aircraft with full flight details |
-| Real-time position only | Flight history and route replay |
-| Anonymous viewing | User accounts with stats |
-| Controllers watch only | Controllers can send commands |
-| No aircraft images | Community-contributed liveries |
+**November 2025:**
+- Basic aircraft position on map
+- Real-time data only
+- Anonymous viewing
+- Desktop control only
+- No aircraft images
+
+**Now:**
+- Full flight details with flight plan visualization
+- Flight history with route replay
+- User accounts with stats and dashboards
+- Remote autopilot control from any device
+- Community-contributed liveries
 
 ## What Is Next
 
