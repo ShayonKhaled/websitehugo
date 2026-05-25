@@ -1,6 +1,6 @@
-baseURL = "https://mansoorbarri.com"
+baseURL = "https://www.shayonkhaled.com"
 languageCode = 'en-us'
-title = "Mansoor Barri"
+title = "shayon khaled"
 
 pagination.pagerSize = 5
 [menu]
@@ -10,24 +10,24 @@ pagination.pagerSize = 5
     weight = 1
 
   [[menu.main]]
-    name = "tags"
-    url = "/tags"
+    name = "projects"
+    url = "/projects"
     weight = 2
 
 [params]
-  description = "known for a few things. developer of pdfthing, Hugo theme Validator, and a few other things."
-  wiki = "likh."
-  hero = "just a **techie**."
+  description = "i build cool stuff, mostly."
+  wiki = "about"
+  hero = "hi, i’m **shayon**. originally from bangladesh and currently **based in japan.** studying mechatronics at kyoto university of advanced science. when bored, i tinker and **build stuff**"
   search = false
   mainSections = ["blogs"]
   projects = [
-      {name = "RadarThing", url = "https://radarthing.com", description = "A radar for GeoFS."},       
-      {name = "vstrips", url = "https://github.com/mansoorbarri/geofs-vstrips", description = "a virtual ATC strips system for the GeoFS community."},
-      {name = "pdfthing", url = "https://pdfthing.mansoorbarri.com", description = "a PDF utility done right."},       
+      {name = "what's for lunch?", url = "https://www.whatsforlunch.lol", description = "cafeteria menu scraper discord bot"},       
+      {name = "Dynamic PID Tuning Platform", url = "https://github.com/ShayonKhaled/Dynamic-PID-Tuning-Platform", description = "test rig for tuning robomaster m3508 motors"},
+      {name = "proxicharge", url = "https://github.com/ShayonKhaled/ProxiCharge", description = "proximity-based battery charger safety system."},       
   ]
   socials = [        
-  {name = "github", url = "https://github.com/mansoorbarri"},
-  {name = "linkedin", url = "https://www.linkedin.com/in/mansoorbarri/"},
+  {name = "github", url = "https://github.com/ShayonKhaled"},
+  {name = "linkedin", url = "https://www.linkedin.com/in/shayonkhaled/"},
   ]
 
 
