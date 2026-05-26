@@ -1,29 +1,29 @@
 baseURL = "https://www.shayonkhaled.com"
 languageCode = 'en-us'
-title = "shayon khaled"
+title = "Shayon Khaled"
 
 pagination.pagerSize = 5
 [menu]
   [[menu.main]]
-    name = "blogs"
+    name = "Blogs"
     url = "/blogs"
     weight = 1
 
   [[menu.main]]
-    name = "projects"
+    name = "Projects"
     url = "/projects"
     weight = 2
 
 [params]
-  description = "i build cool stuff, mostly."
+  description = "I build cool stuff, mostly."
   wiki = ""
-  hero = "hi, i’m **shayon**. originally from bangladesh and currently **based in japan.** studying mechatronics at kyoto university of advanced science. when bored, i tinker and **build stuff**"
+  hero = "Hi, I’m **Shayon**. Originally from Bangladesh and currently **based in Japan.** Studying mechatronics at Kyoto University of Advanced Science. When bored, I tinker and **build stuff**"
   search = false
   mainSections = ["blogs"]
   projects = [
-      {name = "what's for lunch?", url = "https://www.whatsforlunch.lol", description = "cafeteria menu scraper discord bot"},       
-      {name = "Dynamic PID Tuning Platform", url = "https://github.com/ShayonKhaled/Dynamic-PID-Tuning-Platform", description = "test rig for tuning robomaster m3508 motors"},
-      {name = "proxicharge", url = "https://github.com/ShayonKhaled/ProxiCharge", description = "proximity-based battery charger safety system."},       
+      {name = "What's for lunch?", url = "https://www.whatsforlunch.lol", description = "Cafeteria menu scraper Discord bot"},       
+      {name = "Dynamic PID Tuning Platform", url = "https://github.com/ShayonKhaled/Dynamic-PID-Tuning-Platform", description = "Test rig for tuning RoboMaster M3508 motors"},
+      {name = "ProxiCharge", url = "https://github.com/ShayonKhaled/ProxiCharge", description = "Proximity-based battery charger safety system."},       
   ]
   socials = [        
   {name = "github", url = "https://github.com/ShayonKhaled"},

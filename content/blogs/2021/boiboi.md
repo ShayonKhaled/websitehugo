@@ -1,5 +1,5 @@
 ---
-title: "made a web app to leave books behind, on purpose"
+title: "Made a web app to leave books behind, on purpose"
 description: "build log for boiboi, a book-crossing tracker web app"
 date: "2021-10-14"
 url: "/boiboi/"
@@ -19,7 +19,7 @@ tags:
 
 ![](/img/posts/boiboi/homepage.jpg)
 
-**Before I say anything about what this is, let me show you the About section of Boiboi first so you get the concept from that.** You can also visit the website [here](http://boiboi.netlify.app/).
+### **Before I say anything about what this is, let me show you the About section of Boiboi first so you get the concept from that.** You can also visit the website [here](http://boiboi.netlify.app/).
 
 ![](/img/posts/boiboi/whatwhy.png)
 ![](/img/posts/boiboi/wherewhen.png)
@@ -34,7 +34,9 @@ It took me about a month to build the first version of the website. While I woul
 
 I decided to take a different approach with it.
 
-![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2023/02/IMG_2903.jpg?resize=720%2C960&ssl=1)The $100 Startup @ Second Cup![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2023/02/IMG_2906.jpg?resize=504%2C960&ssl=1)Inferno @ North End Coffee Roasters![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2023/02/IMG_2907.jpg?resize=504%2C960&ssl=1)Inferno @ North End Coffee Roasters![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2023/02/IMG_2905.jpg?resize=1170%2C2532&ssl=1)Animal Farm @ Crimson Cup![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2023/02/IMG_2904.jpg?resize=720%2C960&ssl=1)Zero to One @ Glorea Jeans![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2023/02/IMG_2920.jpg?resize=504%2C960&ssl=1)Schoolgirl @ Crimson Cup North![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2023/02/IMG_2915.jpg?resize=504%2C960&ssl=1)The Archer @ Crimson Cup North![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2023/02/IMG_2914.jpg?resize=719%2C1372&ssl=1)The Archer @ Crimson Cup NorthSome pictures I took during the drops
+![](/img/posts/boiboi/boiboidrop.jpg)
+
+*Some pictures I took during the drops*
 
 Instead of learning from the bottom up (mastering JavaScript and etc.), I researched what tools I needed to learn to build Boiboi, and simply started learning Vue JS and Chakra UI instead of mastering HTML, CSS and JavaScript first.
 
@@ -46,7 +48,7 @@ Anyway.
 
 I dropped books around the city for five months – from October 2021 to February 2022. Got busy with university admissions and left Bangladesh soon, so no drops happened since that. But despite the abrupt ending, it was still one hell of a 6-month project.
 
-#### What did I put inside the books?
+### What did I put inside the books?
 ![](/img/posts/boiboi/letterhooman.png)
 ![](/img/posts/boiboi/letterauthority.png)
 ![](/img/posts/boiboi/bookid.jpg)
@@ -54,7 +56,7 @@ I dropped books around the city for five months – from October 2021 to Februar
 
 Each book had a printed copy of a letter to the reader, a letter to the authority (in case some staff found the book and brought it to the manager) and a code that was to be entered on the website.
 
-#### Did I get any response?
+### Did I get any response?
 
 Yes, surprisingly I got my first entry on the website after dropping only five books. I wasn’t expecting anything before at least the 20th drop (which never happened), so my excitement went through the roof when someone actually filled out the form on the website.
 
@@ -62,27 +64,27 @@ Yes, surprisingly I got my first entry on the website after dropping only five b
 ![](/img/posts/boiboi/screenshot2.png)
 
 
-Some screenshots from that day haha
+*Some screenshots from that day haha*
 
 It always feels so good when someone uses something you’ve made – no matter how insignificant it is.
 
-#### How is it going now?
+### How is it going now?
 
 The app is still live on Netlify, but I didn’t renew the domain (www.boiboi.xyz) last year so currently it can be just accessed with the [Netlify subdomain](http://boiboi.netlify.app/).
 
 I do want to revive the project at some point, but I don’t think that would be anytime soon.
 
-#### Technical details
+### Technical details
 
 - **Technologies used:** Vue JS, Chakra UI & Firebase.
 - **Hosting:** Netlify
 
-#### Things I wish I did better
+### Things I wish I did better
 
 - Making the website mobile-friendly, which is what probably anyone who picked up the book would use to check the website.
 - There’s a bug in the website which prevents users from using direct links to visit a page. For example, you will get an error if you try to visit the About page directly using [https://boiboi.netlify.app/about](https://boiboi.netlify.app/about). You need to go to home page and click on the About button in the menu to do that.
 
-#### Conclusion
+### Final thoughts
 
 Before Boiboi, I always thought of myself as a hardware guy, someone who enjoyed building things that can be touched. The closest I ever got to coding was when I had to write code for microcontrollers and software to control them from my computer.
 

@@ -547,7 +547,8 @@ video {
 }
 .text-neutral-500 {
   --un-text-opacity: 1;
-  color: #FAD000;
+  color: #be83fa
+;
 }
 .text-white {
   --un-text-opacity: 1;
@@ -596,14 +597,22 @@ video {
   text-decoration-line: underline;
 }
 .decoration-neutral-600 {
-  -webkit-text-decoration-color: #FAD000;
+  -webkit-text-decoration-color: #FAD000
+;
   --un-line-opacity: 1;
-  text-decoration-color: #FAD000;
+  text-decoration-color: #be83fa
+;
 }
 .hover\:decoration-neutral-500:hover {
   -webkit-text-decoration-color: #FAD000;
   --un-line-opacity: 1;
   text-decoration-color: #FAD000;
+}
+
+/* Header/menu link hover color: make page names (Blogs, Projects, etc.) turn #FAD000 on hover */
+header a:hover,
+header .flex.gap-x-4 a:hover {
+  color: #FAD000;
 }
 .focus\:decoration-neutral-500:focus {
   -webkit-text-decoration-color: #FAD000;
@@ -719,7 +728,7 @@ body {
   position: relative;
   min-height: 100vh;
   --un-bg-opacity: 1;
-  background-color: #1E1E3F;
+  background-color: #000000;
   padding-left: 0;
   padding-right: 0;
   padding-top: 1rem;

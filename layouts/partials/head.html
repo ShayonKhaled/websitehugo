@@ -7,13 +7,13 @@
 {{ end }}
 <title>
     {{ if eq .RelPermalink "/" }}
-      {{ lower .Site.Title }}
+      {{ .Site.Title }}
     {{ else }}
-      {{ lower .Title }} • {{ lower .Site.Title }}
+      {{ .Title }} • {{ .Site.Title }}
     {{ end }}
 </title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
 {{- partial "stylesheet.html" . -}}
 <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-<meta name="author" content="{{ lower .Site.Title }}">
+<meta name="author" content="{{ .Site.Title }}">
 {{- partial "opengraph.html" . -}}

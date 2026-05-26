@@ -9,9 +9,9 @@
            {{ range .Site.Params.projects  }}
         <div class="w-20.6666666666666666666666666666666666666666666666667ch flex flex-col">
             <a href="{{ .url }}" target="_blank" class="underline decoration-neutral-600 underline-offset-4 transition-colors focus:decoration-neutral-500 focus:outline-offset-6 hover:decoration-neutral-500">
-                <span class="font-medium">{{ lower .name }}</span>
+                <span class="font-medium">{{ .name }}</span>
             </a>
-            <span class="pt-3">{{ lower .description }}<span> 
+            <span class="pt-3">{{ .description }}<span> 
         </div>
         {{ end }}
         </div>    
@@ -21,7 +21,7 @@
        <div class="flex flex-col gap-4">
         <article class="flex justify-between">
             <a href="{{ .Permalink }}" target="_self" class="underline decoration-neutral-600 underline-offset-4 transition-colors focus:decoration-neutral-500 focus:outline-offset-6 hover:decoration-neutral-500">
-            <span>{{ with .Params.title }}{{ lower . }}{{ else }}{{ lower .Title }}{{ end }}</span>
+            <span>{{ with .Params.title }}{{ . }}{{ else }}{{ .Title }}{{ end }}</span>
            </a>
         <span>{{ .Date.Format "January 2, 2006" }}</span> 
         </article>

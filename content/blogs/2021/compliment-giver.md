@@ -1,6 +1,6 @@
 ---
-title: "random compliment giver"
-description: "A minimal web app built with Expo that displays one randomized compliment per day; a short build log and reflections on design and sincerity of automated compliments."
+title: "Random compliment giver"
+description: "my first web app that gives you a compliment everyday"
 date: "2021-04-19"
 url: "/compliment-giver/"
 draft: false
@@ -15,24 +15,17 @@ tags:
 
 ---
 
-
-April 19, 2021
-
-# Compliment Giver: The Website That Gives You Random Compliments
-
-![](https://shayonkhaled.com/wp-content/uploads/2021/04/CG-2-1200x675.png)
-
 Last year, I was tinkering with [Expo](http://expo.io/)( _a framework and a platform for universal React applications_). No idea why, guess the quarantine bored me to the point that I actually went back to programming after months.
 
 Since I’m too cool to write a Hello World as the first code, I came up with the idea of an automated random compliment giver. The idea was very simple. You open the webpage and there is a compliment displayed in the middle of the screen in big font. Nothing else at all. You refresh/reload the page, another compliment shows up. Each compliment will be only displayed once to you , so it doesn’t get boring (unlike my life at that time).
 
-![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2021/04/CG-1.png?resize=840%2C472&ssl=1)_A screenshot of the first version._
+![](/img/posts/compliment-giver/CG-1.png)_A screenshot of the first version._
 
 It was easy-peasy, took me like half an hour to get it working. Loved how minimalistic the design looked with just a black text on white background. I added a fading animation too, UwU.
 
 Okay, okay, I left the background plain because I didn’t know how to add pictures and stuff. _I was still learning the language, cut me some slack._
 
-![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2021/04/CG-2.png?resize=1024%2C576&ssl=1)_Another screenshot. I learnt how to add a background image, yay!_
+![](/img/posts/compliment-giver/CG-2.png)_Another screenshot. I learnt how to add a background image, yay!_
 
 This is what it looked like after adding some more elements to the design. I made some changes to the code so user would get only one complement in every 24 hours instead of getting a new one as soon as they hit the reload button. Thanks to my crush for the suggestions. ?
 
