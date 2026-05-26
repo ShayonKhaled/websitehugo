@@ -726,11 +726,11 @@ video {
 }
 
 .bg-transparent {
-  background-color: transparent;
+  background-color: #2D2B55;
 }
 
 .fill-neutral-500 {
-  fill: #737373;
+  fill: #2D2B55;
 }
 
 .p-\[10px\] {
@@ -859,7 +859,7 @@ video {
 pre {
   white-space: pre-wrap;
   overflow-wrap: break-word;
-  background-color: #303030  !important;
+  background-color: #2D2B55  !important;
   border-radius: 10px  !important;
   padding: 10px  !important;
 }
@@ -887,7 +887,7 @@ blockquote {
 }
 
 code {
-  background-color: #303030
+  background-color: #2D2B55
 }
 
 .hover\:fill-white:hover {

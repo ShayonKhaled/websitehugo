@@ -1,6 +1,6 @@
 ---
-title: "i made a web app to start book-crossing"
-description: "A build log for Boiboi.xyz — a personal book-crossing tracker web app built with Vue, Chakra UI, and Firebase; notes on development, deployment, and lessons learned."
+title: "made a web app to leave books behind, on purpose"
+description: "build log for boiboi, a book-crossing tracker web app"
 date: "2021-10-14"
 url: "/boiboi/"
 draft: false
@@ -16,16 +16,13 @@ tags:
   - book-crossing
 
 ---
-October 14, 2021
 
-# From Zero to Boiboi.xyz: My Rather Unorthodox Dive into Developing a Web App
-
-![](https://shayonkhaled.com/wp-content/uploads/2022/01/boiboi.xyz_-1200x632.jpg)
+![](/img/posts/boiboi/homepage.jpg)
 
 **Before I say anything about what this is, let me show you the About section of Boiboi first so you get the concept from that.** You can also visit the website [here](http://boiboi.netlify.app/).
 
-- ![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2023/02/Screenshot-2023-02-25-at-17.21.10.png?resize=2940%2C1912&ssl=1)
-- ![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2023/02/Screenshot-2023-02-25-at-17.21.16.png?resize=2940%2C1912&ssl=1)
+![](/img/posts/boiboi/whatwhy.png)
+![](/img/posts/boiboi/wherewhen.png)
 
 **In summary, Boiboi served as my personal book-crossing tracker.**
 
@@ -50,10 +47,10 @@ Anyway.
 I dropped books around the city for five months – from October 2021 to February 2022. Got busy with university admissions and left Bangladesh soon, so no drops happened since that. But despite the abrupt ending, it was still one hell of a 6-month project.
 
 #### What did I put inside the books?
+![](/img/posts/boiboi/letterhooman.png)
+![](/img/posts/boiboi/letterauthority.png)
+![](/img/posts/boiboi/bookid.jpg)
 
-- ![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2023/02/IMG_2919.png?resize=640%2C1024&ssl=1)
-- ![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2023/02/IMG_2918.jpg?resize=853%2C1024&ssl=1)
-- ![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2023/02/IMG_2916.jpg?resize=1024%2C585&ssl=1)
 
 Each book had a printed copy of a letter to the reader, a letter to the authority (in case some staff found the book and brought it to the manager) and a code that was to be entered on the website.
 
@@ -61,7 +58,11 @@ Each book had a printed copy of a letter to the reader, a letter to the authorit
 
 Yes, surprisingly I got my first entry on the website after dropping only five books. I wasn’t expecting anything before at least the 20th drop (which never happened), so my excitement went through the roof when someone actually filled out the form on the website.
 
-![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2023/02/Untitled-design.png?resize=473%2C1024&ssl=1)![](https://i0.wp.com/shayonkhaled.com/wp-content/uploads/2023/02/Untitled-design-2.png?resize=473%2C1024&ssl=1)Some screenshots from that day haha
+![](/img/posts/boiboi/screenshot1.png)
+![](/img/posts/boiboi/screenshot2.png)
+
+
+Some screenshots from that day haha
 
 It always feels so good when someone uses something you’ve made – no matter how insignificant it is.
 
@@ -91,10 +92,4 @@ But with this fun little project, I managed to overcome my fear of coding and th
 
 Sure, the website has plenty of room for improvement. But whenever I reflect on it, I think of all the awesome memories I made while creating the website and leaving the books around.
 
-And that’s what matters the most. To me, at least.
-
-In
-
-* * *
-
-* * *
+**And that’s what matters the most. To me, at least.**

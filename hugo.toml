@@ -16,7 +16,7 @@ pagination.pagerSize = 5
 
 [params]
   description = "i build cool stuff, mostly."
-  wiki = "about"
+  wiki = ""
   hero = "hi, i’m **shayon**. originally from bangladesh and currently **based in japan.** studying mechatronics at kyoto university of advanced science. when bored, i tinker and **build stuff**"
   search = false
   mainSections = ["blogs"]

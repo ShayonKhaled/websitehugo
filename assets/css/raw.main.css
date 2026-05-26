@@ -12,7 +12,7 @@
   
 pre {
   @apply whitespace-pre-wrap break-words;
-  background-color: #303030  !important;
+  background-color: #2D2B55  !important;
   border-radius: 10px  !important;
   padding: 10px  !important;
 }
