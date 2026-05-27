@@ -54,7 +54,8 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           hugo \
-            --minify
+            --minify \
+            --baseURL "https://shayonkhaled.github.io/websitehugo/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
