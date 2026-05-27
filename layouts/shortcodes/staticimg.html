@@ -1,6 +1,6 @@
 {{- $src := .Get "src" -}}
 {{- $alt := .Get "alt" | default "" -}}
 {{- if and (hasPrefix $src "/") (not (hasPrefix $src "//")) -}}
-  {{- $src = printf "%s%s" (strings.TrimSuffix "/" .Site.BaseURL) $src -}}
+  {{- $src = $src | absURL -}}
 {{- end -}}
 <img src="{{ $src | safeURL }}" alt="{{ $alt }}" loading="lazy">
