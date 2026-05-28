@@ -1,6 +1,3 @@
-{{- $src := .Destination -}}
-{{- if and (hasPrefix .Destination "/") (not (hasPrefix .Destination "//")) -}}
-  {{- $src = .Destination | absURL -}}
-{{- end -}}
-<img src="{{ $src | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
-
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+<img src="{{ $src | absURL }}" alt="{{ $alt }}" loading="lazy">
