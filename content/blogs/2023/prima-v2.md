@@ -30,7 +30,7 @@ That’s when I got to know that my university had a financial support system fo
 
 Building stuff while university picks up the tab? Sign me up.
 
-I texted a classmate who was well versed in coding and started discussing with him what project we can start (Cornerstone requires two people at least). Our wild idea? Building a robot that could play unique AI-generated musical compositions on a MIDI Keyboard. For me, it was an opportunity to rebuild a version 2 of [Prima](https://shayonkhaled.com/portfolio/prima/), the robot I made long ago to play a MIDI keyboard.
+I texted a classmate who was well versed in coding and started discussing with him what project we can start (Cornerstone requires two people at least). Our wild idea? Building a robot that could play unique AI-generated musical compositions on a MIDI Keyboard. For me, it was an opportunity to rebuild a version 2 of [Prima](https://www.youtube.com/watch?v=iPc587KBlrc), the robot I made long ago to play a MIDI keyboard.
 
 [Alfa](https://alfaxad.github.io/), my partner in the project, was responsible for the A.I model for generating unique musical composition. And I were to make the mechanical prototype, the controller circuit and write the firmware for it. In this build log, I will mainly be talking about my part only.
 
@@ -44,11 +44,11 @@ The proposal didn’t take long to be approved, and in a few days, we were all g
 
 In the first week of December, the materials of our project started arriving. The NVidia Jetson Nano (for AI Model development), the micro servos and the Alesis Q49 MIDI Keyboard were there already there, so I decided to get started by doing a rough sketch of the concept, and then design the finger.
 
-![](/img/posts/prima-v2/IMG_8894.jpeg)*A very rough draft of the concept. Fun fact: almost all photos from this build log are from my Instagram stories*
+![](/websitehugo/img/posts/prima-v2/IMG_8894.jpeg)*A very rough draft of the concept. Fun fact: almost all photos from this build log are from my Instagram stories*
 
 Mimicking the human hand design, we were planning on having five fingers for playing the keyboard.
 
-![](/img/posts/prima-v2/IMG_8895.jpeg)*A lot of the photos of this build log came from my Instagram profile, where I was actively posting my progress throughout the project.*
+![](/websitehugo/img/posts/prima-v2/IMG_8895.jpeg)*A lot of the photos of this build log came from my Instagram profile, where I was actively posting my progress throughout the project.*
 
 This simple design took me two weeks to make, because I wanted to use Autodesk Fusion360 to design components from the get go – something I never used before. It slowed down the development quite a bit initially, but there was a pretty good justification behind that.
 
@@ -56,7 +56,7 @@ In the first version of Prima, I used [TinkerCAD](https://www.tinkercad.com/) so
 
 Anyway, I printed the first finger.
 
-![](/img/posts/prima-v2/IMG_1746-2-Large.jpeg)
+![](/websitehugo/img/posts/prima-v2/IMG_1746-2-Large.jpeg)
 
 Which didn’t work out. The length was too short and the servo mounting grooves didn’t fit.
 
@@ -64,17 +64,17 @@ That’s okay, I’ll get it right eventually – I told myself.
 
 In the next two weeks, I went through a couple of iterations. That’s the best part of having access to a 3D printer at university, you could do a lot of rapid prototyping at a very short time.
 
-![](/img/posts/prima-v2/IMG_1870-Large.jpeg)
+![](/websitehugo/img/posts/prima-v2/IMG_1870-Large.jpeg)
 
-![](/img/posts/prima-v2/IMG_1871-Large.jpeg)
+![](/websitehugo/img/posts/prima-v2/IMG_1871-Large.jpeg)
 
-![](/img/posts/prima-v2/IMG_2033-2-Large.jpeg)
+![](/websitehugo/img/posts/prima-v2/IMG_2033-2-Large.jpeg)
 
-![](/img/posts/prima-v2/IMG_2036-Large.jpeg)
+![](/websitehugo/img/posts/prima-v2/IMG_2036-Large.jpeg)
 
-![](/img/posts/prima-v2/IMG_2032-2-Large.jpeg)
+![](/websitehugo/img/posts/prima-v2/IMG_2032-2-Large.jpeg)
 
-![](/img/posts/prima-v2/IMG_2037-Large.jpeg)
+![](/websitehugo/img/posts/prima-v2/IMG_2037-Large.jpeg)
 
 * * *
 
@@ -82,25 +82,25 @@ In the next two weeks, I went through a couple of iterations. That’s the best 
 
 At the seventh iteration, I finally managed to get an okay-ish performance. It wasn’t pretty, but it worked.
 
-![](/img/posts/prima-v2/IMG_2035-2-Large.jpeg)
+![](/websitehugo/img/posts/prima-v2/IMG_2035-2-Large.jpeg)
 
-![](/img/posts/prima-v2/IMG_2115-Large.jpeg)
+![](/websitehugo/img/posts/prima-v2/IMG_2115-Large.jpeg)
 
 So I set off to print four more and design a base to fix them on the Linear Actuator. Messed up the spacing between each fingers at the first attempt because apparently the keyboard model I downloaded from the internet didn’t match with the one we had.
 
-![](/img/posts/prima-v2/IMG_2157-Large.jpeg)
+![](/websitehugo/img/posts/prima-v2/IMG_2157-Large.jpeg)
 
-![](/img/posts/prima-v2/IMG_2156-Large.jpeg)
+![](/websitehugo/img/posts/prima-v2/IMG_2156-Large.jpeg)
 
 I ended up taking measurements of our keyboard and making a CAD model of it myself, to design the “arm” around it.
 
-![](/img/posts/prima-v2/Screenshot-2023-11-13-at-20.53.56.png)
+![](/websitehugo/img/posts/prima-v2/Screenshot-2023-11-13-at-20.53.56.png)
 
 Which worked perfectly. Lesson learned, always cross check your CAD models’ dimensions with the real objects.
 
 In the meanwhile, the Linear Actuator also arrived. So I wired up the motor driver, uploaded a test code on the Arduino and watched it start.
 
-![](/img/posts/prima-v2/IMG_2382-3-Large.jpeg)*I was supposed to make a PCB and move away from breadboard prototyping when the circuit was done. Never got around that, so enjoy the mess. 🙂*
+![](/websitehugo/img/posts/prima-v2/IMG_2382-3-Large.jpeg)*I was supposed to make a PCB and move away from breadboard prototyping when the circuit was done. Never got around that, so enjoy the mess. 🙂*
 
 That’s when we realized we made our first major mistake with the design….
 {{< youtube fcNFQfOR730 >}}
@@ -110,7 +110,7 @@ Why? Because that’s just the way ball-screw linear actuators are.
 
 We originally decided to go with a belt-driven linear actuator like this –
 
-![](/img/posts/prima-v2/belt.jpeg)*Belt-driven Linear Actuator*
+![](/websitehugo/img/posts/prima-v2/belt.jpeg)*Belt-driven Linear Actuator*
 
 They were fast. And perhaps less noisier than ball-screw?
 
@@ -118,7 +118,7 @@ But we had a very hard time finding one online (locally sold) and when we finall
 
 But as we couldn’t find anything else that met the criteria, I decided to go with it. In retrospect, we should’ve just built our own, not like it’s that hard.
 
-![](/img/posts/prima-v2/ball-screw.jpeg)*Ball-screw Linear Actuator*
+![](/websitehugo/img/posts/prima-v2/ball-screw.jpeg)*Ball-screw Linear Actuator*
 
 Anyway, we didn’t have the budget or time to replace this with a belt-driven one, so we decided to do our best with the ball-screw actuator. Even though it never really quite worked out.
 
@@ -126,7 +126,7 @@ Anyway, we didn’t have the budget or time to replace this with a belt-driven o
 
 ## February, 2023: Disappointing performance…
 
-![](/img/posts/prima-v2/Screenshot-2023-02-26-at-3.25.00-min.png)*KUAS-E = Kyoto University of Advanced Science, Engineering.*
+![](/websitehugo/img/posts/prima-v2/Screenshot-2023-02-26-at-3.25.00-min.png)*KUAS-E = Kyoto University of Advanced Science, Engineering.*
 
 The deadline of project completion was coming up, but we were having a hard time optimizing the speed and reducing the noise. I learnt a ton about how stepper motors work and how to drive them in the process, but we were not really being able to make it as fast as we wanted it to be. Moreover, the fixed spacing five-finger design also turned out to be problematic as the actuator wasn’t moving it sidewise fast enough to churn out melodies seamlessly.
 
@@ -155,7 +155,7 @@ See? That’s why the title says Prima V2: I Rebuilt It, But Worse…
 
 Anyway, as far as the Cornerstone project goes, that was it for us. I added some aesthetic touches for fun.
 
-![](/img/posts/prima-v2/IMG_2715-Large.jpeg)![](/img/posts/prima-v2/Screenshot-2023-11-13-at-20.55.42.png)
+![](/websitehugo/img/posts/prima-v2/IMG_2715-Large.jpeg)![](/websitehugo/img/posts/prima-v2/Screenshot-2023-11-13-at-20.55.42.png)
 
 We did a final presentation on Open Campus Day and wrapped it up.
 
@@ -163,7 +163,7 @@ We did a final presentation on Open Campus Day and wrapped it up.
 
 ## The end: How I feel about it
 
-![](/img/posts/prima-v2/IMG_3413-2-Large.jpeg)
+![](/websitehugo/img/posts/prima-v2/IMG_3413-2-Large.jpeg)
 
 If I were to be honest, I have mixed feelings about this project. On one hand, this is the project that kickstarted my journey with Autodesk Fusion360 and 3D printing. Sure, I had some prior experience with CAD and 3D printing while starting. But nowhere as intense as what I had to do for this.
 

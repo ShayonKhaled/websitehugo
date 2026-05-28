@@ -27,7 +27,7 @@ Fast forward to when I turned 20 – RC stores got easier to find in my country,
 
 ## February, 2022: My first build & the maiden flight
 
-![](/img/posts/building-crashing-learning-quadcopters/1.jpeg)*May – The S500 build*![](/img/posts/building-crashing-learning-quadcopters/2.jpeg)*KK 2.1 Flight Controller*![](/img/posts/building-crashing-learning-quadcopters/5.jpeg)*FlySky FS-I6X Radio Transmitter*![](/img/posts/building-crashing-learning-quadcopters/4.jpeg)*…with crappy joysticks*![](/img/posts/building-crashing-learning-quadcopters/3.jpeg)*A low voltage alarm*
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/1.jpeg)*May – The S500 build*![](/websitehugo/img/posts/building-crashing-learning-quadcopters/2.jpeg)*KK 2.1 Flight Controller*![](/websitehugo/img/posts/building-crashing-learning-quadcopters/5.jpeg)*FlySky FS-I6X Radio Transmitter*![](/websitehugo/img/posts/building-crashing-learning-quadcopters/4.jpeg)*…with crappy joysticks*![](/websitehugo/img/posts/building-crashing-learning-quadcopters/3.jpeg)*A low voltage alarm*
 
 To be honest, I thought building my first quadcopter would be a breeze. All I had to do was make a list of the necessary components, assemble them, and voila! I was good to go. So, I put together a list of compatible components and headed to the shop.
 
@@ -37,7 +37,7 @@ The motors I wanted – 900 KV motors – weren’t available, and all they had 
 
 I mean, how bad could it affect the performance, right?
 
-![](/img/posts/building-crashing-learning-quadcopters/Emax.jpeg)*The 1400KV Emax Motors I mistakenly purchased*
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/Emax.jpeg)*The 1400KV Emax Motors I mistakenly purchased*
 
 But yes, as I soon found out, the motors were definitely not the right fit for the huge frame.
 {{< youtube BxpymZccCqY >}}
@@ -47,7 +47,7 @@ The experience left me feeling incredibly excited and inspired – eager to make
 
 Unfortunately, my excitement was short-lived, as disaster struck during my next outdoor flight. In a moment of carelessness, I cut off the throttle at a height of about 40 feet, causing my quadcopter to come crashing down and breaking one of its arms.
 
-![](/img/posts/building-crashing-learning-quadcopters/ezgif-2-2777da8674.gif)*Screenshot taken from my Instagram story I posted that day. Very “ahahaha” of me indeed.*
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/ezgif-2-2777da8674.gif)*Screenshot taken from my Instagram story I posted that day. Very “ahahaha” of me indeed.*
 
 It was a painful lesson learned – one that reminded me of the importance of caution and patience when working with delicate equipment like this. But, I wasn’t about to give up just yet.
 
@@ -63,7 +63,7 @@ And that’s where the new flight controller came in – the mighty ArduPilot AP
 
 ### April, 2022: New flight controller & LED controller
 
-![](/img/posts/building-crashing-learning-quadcopters/278664193_1299376640551198_3511876816306273477_n.jpg)*Ardupilot APM 2.8*
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/278664193_1299376640551198_3511876816306273477_n.jpg)*Ardupilot APM 2.8*
 
 I had a soft spot for it because it was based on Arduino Mega – a board from the same family I used in a lot of robotics projects of mine. The flight controller was discontinued in 2013 and the one I got my hands one was a Chinese knockoff – but it still worked just as good.
 
@@ -78,11 +78,11 @@ And now that it was flying properly, I could finally start working on the fun pa
 
 Obviously, the first thing I decided to do was adding some RGB LEDs.
 
-![](/img/posts/building-crashing-learning-quadcopters/L1.jpeg)![](/img/posts/building-crashing-learning-quadcopters/L2.jpeg)![](/img/posts/building-crashing-learning-quadcopters/L3.jpeg)*I had also taken an interest in photography at that time – as you may already have noticed in the _artsy_ photos in this post.*
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/L1.jpeg)![](/websitehugo/img/posts/building-crashing-learning-quadcopters/L2.jpeg)![](/websitehugo/img/posts/building-crashing-learning-quadcopters/L3.jpeg)*I had also taken an interest in photography at that time – as you may already have noticed in the _artsy_ photos in this post.*
 
 I also made an LED controller based on an Arduino Nano – to control the LEDs. It was a fun little project.
 
-![](/img/posts/building-crashing-learning-quadcopters/Controller.jpeg)*Used some ULN2003 transistor arrays to control the power-hungry LEDs. The Arduino was connected to one of the spare channels of the radio receiver – so I could control the lights from my radio transmitter.*
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/Controller.jpeg)*Used some ULN2003 transistor arrays to control the power-hungry LEDs. The Arduino was connected to one of the spare channels of the radio receiver – so I could control the lights from my radio transmitter.*
 
 **And the end result looked amazing! Check this out –**
 {{< youtube lSsd6k9WY >}}
@@ -134,11 +134,11 @@ Went for the latter. Because other than the thrust issues, S500 was also a HUGE 
 
 Except for the LED controller and the LED lights. The first _cultural_ _shock_ that came from the _exchange programme_ was that I no longer had the space for random accessories in the quadcopter. It was a pretty tight build. Too bad…
 
-![](/img/posts/building-crashing-learning-quadcopters/dione.jpeg)*Behold, the Dione!*
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/dione.jpeg)*Behold, the Dione!*
 
 And I was pleasantly surprised when it started flying perfectly at the first attempt. No more power issues, the motors were perfect for it. Another plus point, _Dione_ also looked much cooler than its predecessor!
 
-![](/img/posts/building-crashing-learning-quadcopters/ezgif-2-660e5d9b95.gif)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/ezgif-2-660e5d9b95.gif)
 
 > ###### _On May 2, 2022, history witnessed the first-ever Quadcopter Revolution coming to a sudden standstill, under my (foot’s) firm control._
 
@@ -150,7 +150,7 @@ Sometimes life gives you lemon and…you decide you need to abuse your quadcopte
 
 I put my foot on the quadcopter and jammed the propellers with my shoe, and then quickly unplugged the battery. I knew that was gonna burn out the ESCs and possibly the motors but I couldn’t just let it have its intrusive thoughts on the pavement in peace while not listening to my radio, right?
 
-![](/img/posts/building-crashing-learning-quadcopters/Untitled-design-60.jpg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/Untitled-design-60.jpg)
 
 Fortunately only the propellers broke, everything else was fine.
 
@@ -162,7 +162,7 @@ So instead of landing immediately, it was going to climb some height and then tr
 
 Anyway, I turned that option off and it started flying a-ok again. I even went for some indoor flights. It noticeably was far more agile than the S500.
 
-![](/img/posts/building-crashing-learning-quadcopters/ezgif-1-ec64eb5083.gif)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/ezgif-1-ec64eb5083.gif)
 
 For a while, the idea of getting a GPS module lingered in my mind, unsure of my next move. Then I came across an advertisement of an FPV quadcopter online and messaged the seller to ask if it was still available – out of curiosity.
 
@@ -190,11 +190,11 @@ When I was inquiring about the FPV quadcopter was up for sell (it’s not a huge
 
 And when I say not pristine…
 
-![](/img/posts/building-crashing-learning-quadcopters/287705147_1485215511881556_8131091348215005664_n.jpg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/287705147_1485215511881556_8131091348215005664_n.jpg)
 
 When it arrived, the first shock was the condition of the electronics. Those joints really make you wonder if he tried to solder the wires by lighting the board up on fire…
 
-![](/img/posts/building-crashing-learning-quadcopters/289958922_358380469737109_2010048169075661551_n.jpg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/289958922_358380469737109_2010048169075661551_n.jpg)
 
 It was so bad that I didn’t even have the courage to rebuild the quad myself. It would require soldering the radio receiver, video transmitter, camera and other stuff onto the flight controller which is pretty straightforward if it’s new and you have the pinout diagram. But in this one, the texts were all smudged and he couldn’t even tell me the model number or anything.
 
@@ -210,7 +210,7 @@ I assured him that I was aware of the condition and wouldn’t blame him if it d
 
 Fortunately, he managed to rebuild the quadcopter without breaking anything (probably wasn’t a fun experience lol) and sent me the picture of the assembled quad after a week.
 
-![](/img/posts/building-crashing-learning-quadcopters/288206860_599325788425929_4286445936409956619_n.jpg)*Look at that workbench tho*
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/288206860_599325788425929_4286445936409956619_n.jpg)*Look at that workbench tho*
 
 Well, not fully assembled. I still had to solder the radio receiver myself and set up the Flight Controller using configurator software.
 
@@ -232,11 +232,11 @@ Luckily, a guy posted some pictures of an Eachine VR-007 that was up for sell. W
 
 However, in hindsight, the goggles weren’t the highlight of the deal. It was the opportunity to get to know him. He was the first person to make me realize how the quadcopters I had been building were outdated, and how the latest generation multicopters were designed. I owe a great deal of my knowledge about these things to him.
 
-![](/img/posts/building-crashing-learning-quadcopters/285719101_436027974611741_7429223885884562043_n.jpg)*Eachine VR-007*
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/285719101_436027974611741_7429223885884562043_n.jpg)*Eachine VR-007*
 
 I put some stickers on the goggles to give it some swag. And then came the second problem.
 
-![](/img/posts/building-crashing-learning-quadcopters/290333535_2202135459954316_1568723253746058764_n.jpg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/290333535_2202135459954316_1568723253746058764_n.jpg)
 
 The new video transmitter (RushFPV Racing) I installed, it wasn’t working with the FPV goggles for some reason. Then I installed the previous one (Eachine TS5828L), that didn’t work either. All I got was static.
 
@@ -254,7 +254,7 @@ In the next few weeks, I went through a bunch of upgrades.
 
 The first one was…
 
-![](/img/posts/building-crashing-learning-quadcopters/Screenshot-2023-11-06-at-3.36.13.png)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/Screenshot-2023-11-06-at-3.36.13.png)
 
 Previously, I had been using this. The go-to radio for RC planes and quadcopters. It wasn’t the top-of-the-line, but with a range of 1 KM, I thought it would be a safe choice.
 
@@ -262,7 +262,7 @@ But at that time I didn’t know that freestyle quadcopters are the least forgiv
 
 And FlySky had a bad reputation among the FPV community for this. So I splurged a bit and got a decent-ish radio, the RadioMaster TX-12.
 
-![](/img/posts/building-crashing-learning-quadcopters/Screenshot-2023-11-06-at-3.45.17.png)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/Screenshot-2023-11-06-at-3.45.17.png)
 
 The stock radio options it came with weren’t good enough – I went with a FRSky receiver which was slightly better than FlySky but still had complaints about radio signal losses.
 
@@ -274,19 +274,19 @@ But since this has a module bay, I could buy a radio transmitter module separate
 
 My quadcopter setup originally came with a frame known locally as “Johnny V2”, which was basically a cheap clone of the AstroX X5 Freestyle Johnny FPV V2 frame. The problem with clone frames was that the carbon fiber would always be of lower quality, and the manufacturers never gave two shits about tolerances.
 
-![](/img/posts/building-crashing-learning-quadcopters/291937157_759069392202144_7614765736612485588_n.png)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/291937157_759069392202144_7614765736612485588_n.png)
 
 Seriously. This is an antenna mount I 3D printed with TPU that was designed for the Astrox X5 frame. But since the measurements of the clone frame were so off, I had to fight tooth and nail to install it.
 
 Shortly after I started flying, I upgraded the frame to iFlight Titan XL5.
 
-![](/img/posts/building-crashing-learning-quadcopters/307222458_1135061057099790_7357121767479613265_n.jpg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/307222458_1135061057099790_7357121767479613265_n.jpg)
 
 It’s the only decent 5 inch frame I ever used, but I must say that my experience was very pleasant with this. It already came with a bunch of 3D printed TPU accessories, the build quality felt awesome and the PID tuning was a breeze.
 
 I’d also upgraded the camera from a Cadxx Turbo EOS V2 to a Cadxx Tarsier that came with 4K DVR recording. But there wasn’t enough space in the frame to make room for the DVR board, so I printed an extended adapter for the camera.
 
-![](/img/posts/building-crashing-learning-quadcopters/296274714_1368914820264046_7886231121398206447_n.jpg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/296274714_1368914820264046_7886231121398206447_n.jpg)
 
 Keeping the camera outside the frame obviously meant that in the event of a head-on impact, the camera would be the first thing to break. But since I got it for so cheap, I didn’t care much since I had a replacement to go right in – if needed.
 
@@ -294,7 +294,7 @@ My second upgrade (more of an aesthetic one) was some LEDs.
 
 But the catch was that these LEDs were not being controlled by the Flight Controller. I had the first version of Diatone Mamba F405 which was three years old, and in the latest firmware its LED pin got remapped to controlling one of the motors. That’s how fast things get obsolete here.
 
-![](/img/posts/building-crashing-learning-quadcopters/Screenshot-2023-11-06-at-4.06.10.png)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/Screenshot-2023-11-06-at-4.06.10.png)
 
 I had an Attiny85-based DigiSpark development board lying around which was small enough to be wrapped in heatshrink and fit inside the frame. So that’s what I did, I uploaded a small Arduino code on it to cycle the colors on the WS2812-based LED strips, and powered it via one of the 5V pins of the Flight Controller. It looked pretty cool in the sky, although I couldn’t see it due to having the first person view, lol.
 
@@ -304,7 +304,7 @@ Moving on…
 
 ### September 2022: Moved to Japan, no more pre-orders
 
-![](/img/posts/building-crashing-learning-quadcopters/300675572_779742196652681_8875322563790602606_n.jpg)*The 5 inch freestyle quad with a toy I got from a Gatcha machine*
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/300675572_779742196652681_8875322563790602606_n.jpg)*The 5 inch freestyle quad with a toy I got from a Gatcha machine*
 
 Yep, that’s when my journey with FPV started going 📈📈📈. I moved to Japan where AliExpress would deliver stuff within 7-10 days. What’s even better, since Japanese people usually take good care of their stuff – there were plenty of awesome deals in the used marketplace.
 
@@ -330,11 +330,11 @@ Because flipping the quad enabled the safety feature on Betaflight (the firmware
 
 Bam. Time to retire it.
 
-![](/img/posts/building-crashing-learning-quadcopters/326494702_1618904505199014_2051019335832537204_n.jpg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/326494702_1618904505199014_2051019335832537204_n.jpg)
 
 Afterwards, I found out the reason. My Flight Controller (Diatone Mamba F405 MK1) had been released three years ago, and two other versions (MK2 and F7-based MK3) came out in the meanwhile with different pin mappings. When I flashed a newer version of the firmware, I had unknowingly enabled the conflict with motor 3 and the LED pin. Now, why the problem started occurring after a delay and not immediately after flashing the firmware, I’m not too sure. But from my research, this what what seemed to be the case.
 
-![](/img/posts/building-crashing-learning-quadcopters/333017082_2801257453341958_1466509743181003664_n.jpg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/333017082_2801257453341958_1466509743181003664_n.jpg)
 
 Anyway, shortly after the incident, I sold the 5 inch setup off. A big problem with flying it was that due to the open-prop configuration and of course, the size, I needed to go outside the city every time I wanted to fly it. I had been considering moving to a smaller class for awhile anyway, and after the malfunction, I decided to move on.
 
@@ -361,13 +361,13 @@ Even though the 5 inch gave me a lot of trouble, it still was a blast to fly. La
 
 ## January 2023: New cinewhoop (Siren), new goggles
 
-![](/img/posts/building-crashing-learning-quadcopters/Screenshot-2023-02-26-at-3.47.32-min.png)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/Screenshot-2023-02-26-at-3.47.32-min.png)
 
 After selling off the 5 inch, I took a break. But it wasn’t long before I won an almost new cinewhoop on Yahoo Auctions. Considering the condition and the retail price, it was a steal.
 
 I still needed to spend a bit more on a camera (the Runcam Nano 2) and some smaller 4S batteries. But shortly, I was back in the air with my new goggles which I also won on an auction, the FatShark Dominator V6.
 
-![](/img/posts/building-crashing-learning-quadcopters/328237682_731783041606209_4578961224804562245_n.jpg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/328237682_731783041606209_4578961224804562245_n.jpg)
 
 Again, stellar condition, very good price. I love Japanese people for taking care of their stuff.
 
@@ -379,11 +379,11 @@ After grabbing a set of diopter lens inserts (I have myopia), I was all set. Lif
 
 I was still facing some problems every now and then. Broken antenna cables for example…
 
-![](/img/posts/building-crashing-learning-quadcopters/329635275_544899800937287_6596596702174753249_n.jpg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/329635275_544899800937287_6596596702174753249_n.jpg)
 
 Or broken propellers.
 
-![](/img/posts/building-crashing-learning-quadcopters/329219321_578242710835079_5541486374940194397_n.jpg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/329219321_578242710835079_5541486374940194397_n.jpg)
 
 But overall, it wasn’t the usual maintenance that made me lose interest in Siren. It was the flying characteristics of them.
 
@@ -391,7 +391,7 @@ I bought a cinewhoop because I wanted something that would be less intimidating.
 
 Turned out I liked the agility of the 5 inch more. The cinewhoop was only suitable for slow and smooth flying – which would be wonderful for taking some cinematic footage with an action camera. But I didn’t want cinematic footage, I wanted to feel the adrenaline rush again. So I flew the cinewhoop maybe once every other week, but that was it.
 
-![](/img/posts/building-crashing-learning-quadcopters/330812846_6195725560497202_6489112346916662086_n.jpg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/330812846_6195725560497202_6489112346916662086_n.jpg)
 
 I never really managed to love it.
 
@@ -417,13 +417,13 @@ So I still couldn’t fly around people, because this time they were annoyed by 
 
 I decided to go even smaller this time. Ended up going for a Happymodel Moblite7.
 
-![](/img/posts/building-crashing-learning-quadcopters/IMG_8876-Large.jpeg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/IMG_8876-Large.jpeg)
 
 And I started enjoying the hobby again. Because although it lacked the momentum of the 5 inch, it was still extremely fun to fly. The best part was, I could fly indoor on campus without bothering anyone.
 
 Had some really good time with it. Until, of course, things started going wrong again.
 
-![](/img/posts/building-crashing-learning-quadcopters/IMG_8877-Large.jpeg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/IMG_8877-Large.jpeg)
 
 The canopy was unprotected. And I crashed pretty often. At some point, the flight controller must’ve had it and stopped working.
 
@@ -433,7 +433,7 @@ However, it was an AIO board and the camera & video transmitter was still workin
 
 ### April 2023: When you can’t fly, you drive
 
-![](/img/posts/building-crashing-learning-quadcopters/April-23.jpg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/April-23.jpg)
 
 I designed and 3D printed a custom adapter to fix the AIO board, its battery and the camera onto an RC car. My classmate and I drove it around and had tons of fun for like a few weeks. The car also bumped into the walls a lot so when board’s power light finally stopped lighting up, I concluded that the AIO board is fully dead now and left it at a corner of my desk. Didn’t bother to check the camera, just wanted to take a break from FPV altogether for awhile as I was really tired.
 
@@ -441,7 +441,7 @@ I designed and 3D printed a custom adapter to fix the AIO board, its battery and
 
 ### July 2023: Resurrection, the fire, and I quit
 
-![](/img/posts/building-crashing-learning-quadcopters/July-24-1-day.jpg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/July-24-1-day.jpg)
 
 Previously when the AIO board stopped lighting up, I thought the VTX part was finally toasted as well.
 
@@ -455,7 +455,7 @@ I have no idea why. Power plug issue shouldn’t have anything to do with connec
 
 But anyway, hoping to get back to the hobby again, I put the 1S batteries on charge. On my clone Imax B6, the only piece-of-shit equipment I never upgraded. **And then I left it alone.**
 
-![](/img/posts/building-crashing-learning-quadcopters/362881269_1672865713214889_4664747575387003340_n-2.jpg)*I was VERY lucky that the 4S pack didn’t catch fire as well. It just got burned a bit on the side. I discarded it along with everything else. Never ever leave your Li-Po batteries alone while charging, I had to learn it the hard way.*
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/362881269_1672865713214889_4664747575387003340_n-2.jpg)*I was VERY lucky that the 4S pack didn’t catch fire as well. It just got burned a bit on the side. I discarded it along with everything else. Never ever leave your Li-Po batteries alone while charging, I had to learn it the hard way.*
 
 After a few hours, I was greeted with this scene. Apparently a fire broke out and went out on its own. With some el cheapo GNB batteries and an el cheapo clone battery charger, I wasn’t sure which one to blame (along with myself for leaving it alone). But one thing was for sure, this was it.
 
