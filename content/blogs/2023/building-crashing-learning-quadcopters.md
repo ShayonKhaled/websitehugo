@@ -10,7 +10,7 @@ tags:
   - quadcopters
 ---
 
-![](websitehugo/img/posts/building-crashing-learning-quadcopters/building-and-crashing-featured-pic.jpg)
+![](/websitehugo/img/posts/building-crashing-learning-quadcopters/building-and-crashing-featured-pic.jpg)
 
 
 ## 2012: Browsing random RC forums

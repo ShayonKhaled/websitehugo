@@ -17,12 +17,12 @@ tags:
 
 ---
 
-{{< staticimg src="/img/posts/boiboi/homepage.jpg" alt="Boiboi homepage" >}}
+![](/img/posts/boiboi/homepage.jpg)
 
 ### **Before I say anything about what this is, let me show you the About section of Boiboi first so you get the concept from that.** You can also visit the website [here](http://boiboi.netlify.app/).
 
-{{< staticimg src="/img/posts/boiboi/whatwhy.png" alt="Boiboi about section what and why" >}}
-{{< staticimg src="/img/posts/boiboi/wherewhen.png" alt="Boiboi about section where and when" >}}
+![](/img/posts/boiboi/whatwhy.png)
+![](/img/posts/boiboi/wherewhen.png)
 
 **In summary, Boiboi served as my personal book-crossing tracker.**
 
@@ -34,7 +34,7 @@ It took me about a month to build the first version of the website. While I woul
 
 I decided to take a different approach with it.
 
-{{< staticimg src="/img/posts/boiboi/boiboidrop.jpg" alt="Book drop photos collage" >}}
+![](/img/posts/boiboi/boiboidrop.jpg)
 
 *Some pictures I took during the drops*
 
@@ -49,9 +49,9 @@ Anyway.
 I dropped books around the city for five months – from October 2021 to February 2022. Got busy with university admissions and left Bangladesh soon, so no drops happened since that. But despite the abrupt ending, it was still one hell of a 6-month project.
 
 ### What did I put inside the books?
-{{< staticimg src="/img/posts/boiboi/letterhooman.png" alt="Letter to reader" >}}
-{{< staticimg src="/img/posts/boiboi/letterauthority.png" alt="Letter to authority" >}}
-{{< staticimg src="/img/posts/boiboi/bookid.jpg" alt="Book tracking ID card" >}}
+![](/img/posts/boiboi/letterhooman.png)
+![](/img/posts/boiboi/letterauthority.png)
+![](/img/posts/boiboi/bookid.jpg)
 
 
 Each book had a printed copy of a letter to the reader, a letter to the authority (in case some staff found the book and brought it to the manager) and a code that was to be entered on the website.
@@ -60,8 +60,8 @@ Each book had a printed copy of a letter to the reader, a letter to the authorit
 
 Yes, surprisingly I got my first entry on the website after dropping only five books. I wasn’t expecting anything before at least the 20th drop (which never happened), so my excitement went through the roof when someone actually filled out the form on the website.
 
-{{< staticimg src="/img/posts/boiboi/screenshot1.png" alt="First boiboi response screenshot" >}}
-{{< staticimg src="/img/posts/boiboi/screenshot2.png" alt="Second boiboi response screenshot" >}}
+![](/img/posts/boiboi/screenshot1.png)
+![](/img/posts/boiboi/screenshot2.png)
 
 
 *Some screenshots from that day haha*
