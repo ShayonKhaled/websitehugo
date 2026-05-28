@@ -1,6 +1,6 @@
 ---
 title: "Gesture-based macro controller"
-description: "things i learned while building my own macro controller."
+description: "Things i learned while building my own macro controller."
 date: "2023-05-19"
 url: "/gesture-based-macro-controller/"
 draft: false

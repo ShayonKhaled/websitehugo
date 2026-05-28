@@ -17,7 +17,9 @@
         </div>    
        <div class="mt-12"></div>
        <h2>Blog</h2>
-       {{ range .Paginator.Pages }}
+       {{ $blogPages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+       {{ $paginator := .Paginate $blogPages }}
+       {{ range $paginator.Pages }}
        <div class="flex flex-col gap-4">
         <article class="flex justify-between">
             <a href="{{ .Permalink }}" target="_self" class="underline decoration-neutral-600 underline-offset-4 transition-colors focus:decoration-neutral-500 focus:outline-offset-6 hover:decoration-neutral-500">

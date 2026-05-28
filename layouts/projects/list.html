@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="mx-auto max-w-container px-4 pb-10">
+	<main class="prose">
+		<h1>{{ .Title }}</h1>
+		<div class="my-8"></div>
+		<div class="flex flex-col gap-12">
+			{{ range .Paginator.Pages }}
+			<article class="flex flex-col gap-3">
+				<div class="flex items-baseline justify-between gap-4">
+					<a href="{{ .Permalink }}" target="_self" class="underline decoration-neutral-600 underline-offset-4 transition-colors focus:decoration-neutral-500 focus:outline-offset-6 hover:decoration-neutral-500">
+						<span class="text-lg text-imp font-semibold">{{ with .Params.title }}{{ . }}{{ else }}{{ .Title }}{{ end }}</span>
+					</a>
+					<span class="shrink-0 text-sm text-neutral-500">{{ with .Params.timeframe }}{{ . }}{{ else }}{{ .Date.Format "January 2006" }}{{ end }}</span>
+				</div>
+				<span>{{ .Params.description }}</span>
+				{{ with .Params.tags }}
+				<div class="text-neutral-500">
+					{{ range $index, $tag := . }}
+					<a href="/tags/{{ $tag | urlize }}" class="hover:underline">{{ $tag }}</a>{{ if lt $index (sub (len .) 1) }}{{ end }}
+					{{ end }}
+				</div>
+				{{ end }}
+			</article>
+			{{ end }}
+		</div>
+
+		<div class="mt-10 flex justify-between">
+			{{ if .Paginator.HasPrev }}
+			<a href="{{ .Paginator.Prev.URL }}" class="text-neutral-600 hover:underline">
+				← Newer Projects
+			</a>
+			{{ else }}
+			<span></span>
+			{{ end }}
+
+			{{ if .Paginator.HasNext }}
+			<a href="{{ .Paginator.Next.URL }}" class="text-neutral-600 hover:underline">
+				Older Projects →
+			</a>
+			{{ end }}
+		</div>
+	</main>
+</div>
+{{ end }}

@@ -1,6 +1,6 @@
 ---
 title: "Random compliment giver"
-description: "my first web app that gives you a compliment everyday"
+description: "My first web app that gives you a compliment everyday"
 date: "2021-04-19"
 url: "/compliment-giver/"
 draft: false

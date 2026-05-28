@@ -1,6 +1,6 @@
 ---
 title: "Made a web app to leave books behind, on purpose"
-description: "build log for boiboi, a book-crossing tracker web app"
+description: "Build log for boiboi, a book-crossing tracker web app"
 date: "2021-10-14"
 url: "/boiboi/"
 draft: false

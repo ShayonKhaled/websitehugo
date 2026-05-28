@@ -1,0 +1,45 @@
+{{ define "main" }}
+    <div class="prose tracking-wide post">
+        <h1 class="text-center">{{ .Title }}</h1>
+        <div class="text-center">
+            <span>{{ with .Params.timeframe }}{{ . }}{{ else }}{{ .Date.Format "January 2006" }}{{ end }}</span>
+        </div>
+        <div class="text-center">
+            <span class="text-neutral-500">{{ .Params.Description }}</span>
+        </div>
+            <p>
+            {{ .Content }}
+        </p>
+
+        <hr>
+        {{- partial "back-to-top.html" . -}}
+    {{ if (findRE "code.*?" .Content 1) }}
+    {{- $ccJS := resources.Get "js/copy-code.js" | minify -}}
+    <script type="text/javascript" src="{{ $ccJS.Permalink }}"></script>
+    <style type="text/css">
+        .highlight {
+            position: relative;
+        }
+
+        .highlight pre {
+            padding-right: 40px;
+        }
+
+        .highlight-copy-btn {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            border: none;
+            border-radius: 10px;
+            padding: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            color: inherit;
+        }
+
+        .highlight-copy-btn:hover {
+            background: #1a1c1c;
+        }
+    </style>
+    {{ end }}
+{{ end }}
