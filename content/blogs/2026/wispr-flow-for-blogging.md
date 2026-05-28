@@ -1,6 +1,6 @@
 ---
 title: "Getting back to writing, thanks to Wispr Flow"
-description: "I speak my blog into the mic now"
+description: "I speak my blogs into the mic now"
 date: "2026-05-28"
 url: "/getting-back-to-writing-wispr-flow/"
 draft: false

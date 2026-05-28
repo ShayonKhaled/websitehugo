@@ -9,11 +9,6 @@ pagination.pagerSize = 5
     url = "/blogs"
     weight = 1
 
-  [[menu.main]]
-    name = "Projects"
-    url = "/projects"
-    weight = 2
-
 [params]
   description = "I build cool stuff, mostly."
   wiki = ""
