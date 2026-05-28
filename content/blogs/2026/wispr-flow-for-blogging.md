@@ -12,7 +12,7 @@ tags:
 
 ---
 
-It's been almost three years since the last time I wrote a blog post, this is mainly because it takes a lot of time and effort for me to write something.
+It's been almost three years since the last time I wrote a blog post, mainly because it takes a lot of time and effort for me to write something.
 
 A few months before I wrote my last post on building quadcopters, I had started something called a scrapbook where I would write short paragraphs about what I was working on every day or every few days. They were basically a bunch of mini blog posts. I did that on and off for almost two years, maybe a bit more, but then I stopped that as well. This was mainly because it was hard to write regularly, even when it was short.
 

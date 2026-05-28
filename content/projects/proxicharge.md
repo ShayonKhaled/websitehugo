@@ -66,4 +66,3 @@ Demo video: [/img/proxicharge/e3da7332-e028-45b5-88b8-72c04bd070bb.mp4](/img/pro
 
 - Repository: [https://github.com/ShayonKhaled/ProxiCharge](https://github.com/ShayonKhaled/ProxiCharge)
 
-If you'd like, I can also copy key images into this site's `static/img` folder and embed local copies for faster loading.
