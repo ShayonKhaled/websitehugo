@@ -3,3 +3,6 @@ public/
 node_modules/
 .DS_Store
 .skills\
+# Ignore Syncthing internal folders and backups
+.stfolder/
+.stversions/
