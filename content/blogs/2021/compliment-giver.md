@@ -19,13 +19,13 @@ Last year, I was tinkering with [Expo](http://expo.io/)( _a framework and a plat
 
 Since I’m too cool to write a Hello World as the first code, I came up with the idea of an automated random compliment giver. The idea was very simple. You open the webpage and there is a compliment displayed in the middle of the screen in big font. Nothing else at all. You refresh/reload the page, another compliment shows up. Each compliment will be only displayed once to you , so it doesn’t get boring (unlike my life at that time).
 
-![](/websitehugo/img/posts/compliment-giver/CG-1.png)_A screenshot of the first version._
+![](/img/posts/compliment-giver/CG-1.png)_A screenshot of the first version._
 
 It was easy-peasy, took me like half an hour to get it working. Loved how minimalistic the design looked with just a black text on white background. I added a fading animation too, UwU.
 
 Okay, okay, I left the background plain because I didn’t know how to add pictures and stuff. _I was still learning the language, cut me some slack._
 
-![](/websitehugo/img/posts/compliment-giver/CG-2.png)_Another screenshot. I learnt how to add a background image, yay!_
+![](/img/posts/compliment-giver/CG-2.png)_Another screenshot. I learnt how to add a background image, yay!_
 
 This is what it looked like after adding some more elements to the design. I made some changes to the code so user would get only one complement in every 24 hours instead of getting a new one as soon as they hit the reload button. Thanks to my crush for the suggestions. ?
 
