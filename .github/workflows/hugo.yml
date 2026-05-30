@@ -55,7 +55,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "https://shayonkhaled.github.io/websitehugo/"
+            --baseURL "https://www.shayonkhaled.com"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
