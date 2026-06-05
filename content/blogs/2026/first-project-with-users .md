@@ -21,15 +21,15 @@ Obviously, it's not a big problem, and it wasn't the end of the world. I decided
 
 That way, I could just open Discord to check the daily menu without having to search through my email. I quickly put together a prototype using n8n, PostgreSQL and Playwright. It works by:
 
-1. Scraping the menu from my email on a weekly basis using the built-in Google OAuth2 integration in n8n.
-2. Introducing the browser session saved in Playwright to access the SharePoint menu.
-3. Sending the PDF version of the menu to the Anthropic API for processing, which returns a JSON response containing the menu.
-4. Parsing the JSON response and saving it to a database for each day of the week.
+- Scraping the menu from my email on a weekly basis using the built-in Google OAuth2 integration in n8n.
+- Introducing the browser session saved in Playwright to access the SharePoint menu.
+- Sending the PDF version of the menu to the Anthropic API for processing, which returns a JSON response containing the menu.
+- Parsing the JSON response and saving it to a database for each day of the week.
 
 I had two workflows in n8n:
 
-1. One workflow scrapes the menu on a weekly basis.
-2. The second workflow checks the database for the daily menu and sends it to me on Discord through a webhook request.
+- One workflow scrapes the menu on a weekly basis.
+- The second workflow checks the database for the daily menu and sends it to me on Discord through a webhook request.
 
 I used it that way for about a week. Then I asked a guy from the university who runs one of the biggest Discord servers if he would be interested in integrating this with their server so the daily menu could be sent there as well. Mainly because it saves me a little time each day. But if others could use it too, perhaps the collective time saved would be a better ROI for me. He was happy to add it to their server. I added the server's webhook URL to my n8n workflow, and I think around 33 people signed up to be notified for the daily menu posts. 
 
