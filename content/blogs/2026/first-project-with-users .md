@@ -48,13 +48,6 @@ So I relied on Claude (free plan because I'm broke) to create it. More on that l
 
 After a weekend, I had a basic bot ready to be deployed. I even made a basic website—[www.whatsforlunch.lol](https://www.whatsforlunch.lol) 
 
-### Infrastructure and operations costs
-
-- The domain cost me 1.24 dollars or about 200 yen. 
-- Website is hosted on GitHub pages for free. 
-- Discord bot, n8n, PostgreSQL database and everything else is locally hosted on my janky homelab, costs maybe 200-300 yen a month in electricity bills. 
-- Each API call costs me about 0.2 dollar or 32 yen. With 2 API calls per week, the monthly cost is about 256 yen. 
-- In total, the monthly running cost is 556 yen - roughly equivalent to one and half meal ticket at the cafeteria. 
 
 ### Things change when it's not a solo project with one user anymore
 
@@ -66,6 +59,14 @@ So far I am liking the pace of the project. It started as a basic n8n-based auto
 
 Let's see where it goes. 
 
+### Infrastructure and operations costs
+
+- The domain cost me 1.24 dollars or about 200 yen. 
+- Website is hosted on GitHub pages for free. 
+- Discord bot, n8n, PostgreSQL database and everything else is locally hosted on my janky homelab, costs maybe 200-300 yen a month in electricity bills. 
+- Each API call costs me about 0.2 dollar or 32 yen. With 2 API calls per week, the monthly cost is about 256 yen. 
+- In total, the monthly running cost is 556 yen - roughly equivalent to one and half meal ticket at the cafeteria. 
+
 ### Lastly, my thoughts on vibe coding
 
 The term vibe coding has a stigma attached to it for good reasons. A lot of the people who are AI enthusiasts and heavily lean on it don't really know what they're doing. Sometimes they really do go off on vibes, and the end result often has many critical flaws. Again, I don't really know a lot about programming or software engineering in general, so these are the sentiments that I have seen on the internet. From my limited knowledge, I agree with them. 
@@ -76,7 +77,7 @@ But one could not get very far with that. It's hard to build something complex e
 
 Except that is no longer true with the rise of LLMs. Now, anyone who has basic computer literacy and instruction following capabilities can build and deploy a software. Will it be something high quality? Probably not. Do they get the job done? Generally, yes. 
 
-So, now we have people who are not necessarily technical be able to build software (among other things, of course). There's a pejorative term for them: AI slop.  
+So, now we have people who are not necessarily technical be able to build software (among other things, of course). There's a pejorative term for that: AI slop.  
 
 Honestly, I don't know what to think of this. 
 
