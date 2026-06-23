@@ -6,8 +6,7 @@ url: /hows-june26-going/
 draft: false
 categories:
   - Blogs
-tags:
-  - 
+tags: []
 ---
 
 
