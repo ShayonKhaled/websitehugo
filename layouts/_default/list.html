@@ -15,8 +15,9 @@
                     <span class="px-2">•</span>
                     <span class="text-neutral-500">
                       {{ with .Params.tags }}
-                        {{ range $index, $tag := . }}
-                          <a href="/tags/{{ $tag | urlize }}" class="hover:underline">{{ $tag }}</a>{{ if lt $index (sub (len .) 1) }}{{ end }}
+                        {{ $tags := . }}
+                        {{ range $index, $tag := $tags }}
+                          <a href="/tags/{{ $tag | urlize }}" class="hover:underline">{{ $tag }}</a>{{ if lt $index (sub (len $tags) 1) }}, {{ end }}
                         {{ end }}
                       {{ end }}
                     </span>
