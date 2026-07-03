@@ -25,4 +25,4 @@ It's not hard to make those specifications AI-digestible and feed that into the 
 
 I think we have seen a lot of development with AI models in the last one year. And at the moment, plenty of them are capable enough for doing serious work. But I would like to see the next updates focus more on creating AI-native specifications, because even a smart person (comparing the AI agent to a human here) with no context is worse than a comparatively incompetent person with more context.  
 
-Update 03.07.2025 - Looks like Fable 5 is back again. It is still absurdly expensive though. I wonder whether cheaper models with better feedback loop can outperform Fable in CAD.
+_Update 03.07.2025 - Looks like Fable 5 is back again. It is still absurdly expensive though. I wonder whether cheaper models with better feedback loop can outperform Fable in CAD._
